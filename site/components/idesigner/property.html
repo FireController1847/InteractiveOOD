@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-body">
+        <fieldset class="card-text">
+            <legend>Property</legend>
+            <div class="mb-3">
+                <label :for="'formselect-property-type-' + uuid" class="form-label">Type</label>
+                <input type="text" class="form-control" :id="'formselect-property-type-' + uuid" placeholder="PropertyType" @input="onPropertyTypeChanged" />
+            </div>
+            <div class="mb-3">
+                <label :for="'forminput-property-name-' + uuid" class="form-label">Name</label>
+                <input type="text" class="form-control" :id="'forminput-property-name-' + uuid" placeholder="PropertyName" @input="onPropertyNameChanged" />
+            </div>
+        </fieldset>
+    </div>
+</div>

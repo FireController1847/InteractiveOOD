@@ -1,0 +1,21 @@
+{
+    "_comment": "All locations are relative to the site's root directory ( /site/. ).",
+    "locations": {
+        "components": {
+            "navbar": "./components/navbar.html",
+            "idesigner": {
+                "property": "./components/idesigner/property.html"
+            }
+        },
+        "navbar": {
+            "home": {
+                "name": "Home",
+                "url": "./"
+            },
+            "idesigner": {
+                "name": "Interface Designer",
+                "url": "./idesigner/"
+            }
+        }
+    }
+}

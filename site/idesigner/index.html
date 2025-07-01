@@ -10,12 +10,32 @@
     <nav id="vjs-navbar"></nav>
     <div id="vjs-appcontent">
         <div class="container mt-4">
-            <h1>Interface Designer Page</h1>
+            <h1>Interface Designer</h1>
+            <form>
+                <fieldset>
+                    <legend>Metadata</legend>
+                    <div class="mb-3" id="form-interface-metadata">
+                        <label for="forminput-interface-name" class="form-label">Interface Name</label>
+                        <input type="text" class="form-control" id="forminput-interface-name" placeholder="IInterfaceName">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Properties</legend>
+                    <div class="mb-3" id="form-interface-properties">
+
+                    </div>
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-primary mb-3" id="formcontrol-add-property">Add Property</button>
+                    </div>
+                </fieldset>
+
+            </form>
         </div>
     </div>
     <script src="../lib/js/bootstrap.min.js"></script>
     <script src="../lib/js/jquery-3.7.1.min.js"></script>
-    <script src="../lib/js/vue.global.prod.min.js"></script>
+    <script src="../lib/js/vue-3.5.17.min.js"></script>
     <script src="../resources/scripts/vue.js"></script>
+    <script src="../resources/scripts/idesigner.js"></script>
 </body>
 </html>
