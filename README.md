@@ -1,2 +1,2 @@
-# InteractiveUML
-A simple interactive UML designer for programmers and developers alike.
+# InteractiveOOD
+A simple interactive object-oriented designer for developers and system programmers alike.
